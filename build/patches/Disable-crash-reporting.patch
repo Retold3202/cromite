@@ -2,6 +2,10 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Sat, 9 Apr 2022 21:43:35 +0200
 Subject: Disable crash reporting
 
+Disables Google's Crash Reporting in Chromium.
+
+Initial Commit: https://github.com/uazo/cromite/commit/f819874002a357e93e1b13c5c32d0f11013b1183#diff-a795972c4f0827d6db5d56cfe0638d2d09f6ba086e6a4f63146f54bccfe3acae (Inherited from Bromite)
+Category: Privacy
 ---
  chrome/browser/chrome_content_browser_client.cc          | 9 ---------
  .../content_features_cc/Disable-crash-reporting.inc      | 1 +
