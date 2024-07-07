@@ -2,6 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Sun, 31 Jul 2022 22:13:11 +0200
 Subject: Disable PrivacyGuide
 
+Disables Google's "Privacy Guide" feature in Chromium (https://blog.google/products/chrome/take-step-step-guide-your-chrome-privacy-settings/).
+
+Initial Commit: https://github.com/uazo/cromite/commit/dca45015a4822ba4bc7cb6f4c77bcd653ac40af0#diff-f1e9e97d512a49d67677d373a1686f85307eacac417cfbf8e3b0360d823b7e51 (Inherited from Bromite)
+Category: Branding
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  chrome/android/java/res/xml/privacy_preferences.xml         | 1 +
