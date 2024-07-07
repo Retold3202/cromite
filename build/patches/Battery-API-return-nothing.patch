@@ -2,7 +2,7 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Thu, 22 Mar 2018 22:11:57 +0100
 Subject: Battery API: return nothing
 
-Stubs out the Battery API (https://developer.mozilla.org/docs/Web/API/Battery_Status_API).
+Stubs out the Battery API (https://developer.mozilla.org/docs/Web/API/Battery_Status_API) - Prevents websites from retrieving your device's battery charge.
 
 (Includes @thestinger's fix for correct charging/unknown values)
 
