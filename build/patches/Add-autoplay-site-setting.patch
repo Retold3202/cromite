@@ -2,6 +2,10 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Sat, 7 Nov 2020 21:59:18 +0000
 Subject: Add autoplay site setting
 
+Allows disabling autoplay of media per-site.
+
+Initial Commit: https://github.com/uazo/cromite/commit/36e72671b09beeeadcd04e3a74559a020d7938e9 (Inherited from Bromite)
+Category: General
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 Require: Content-settings-infrastructure.patch
