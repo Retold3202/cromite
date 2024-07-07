@@ -2,12 +2,13 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Fri, 13 Aug 2021 17:10:47 +0000
 Subject: Experimental user scripts support
 
-Activate the user scripts functionality for Android,
-as it is available in the Desktop version.
+Adds support for user scripts in Cromite.
 
-It is possible to add user scripts in two ways: by
-selecting files from the picker in the settings or
-downloading the scripts and opening them from downloads
+It is possible to add user scripts in two ways: 
+
+* By selecting files from the file picker in settings 
+
+* Or through downloading the desired script and opening it from downloads
 (only if such files end with '.user.js').
 
 New imported scripts are disabled by default: they
@@ -20,12 +21,11 @@ document-idle), homepage, url_source
 
 The UI also allows you to see the source of the script.
 
-See also: components/user_scripts/README.md
-
-Requires patch: Adds-support-for-writing-URIs.patch
-
+Original Commit: https://github.com/uazo/cromite/commit/01d2217a21651894d8f67b2e2361a1ed8acb41c4 (Inherited from Bromite)
+Category: General
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
+Requires: Adds-support-for-writing-URIs.patch
 ---
  chrome/android/BUILD.gn                       |   7 +-
  .../android/java/res/xml/main_preferences.xml |   5 +
