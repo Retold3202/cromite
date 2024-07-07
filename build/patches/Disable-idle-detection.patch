@@ -2,6 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Sat, 19 Feb 2022 12:01:33 +0100
 Subject: Disable idle detection
 
+Disables the "Idle Detection" API (https://chromestatus.com/feature/4590256452009984) - Prevents websites from knowing when a user is actively using their device.
+
+Initial Commit: https://github.com/uazo/cromite/commit/bd8369329286eb256cb4c835d0abee0251c234e3#diff-af4cf806d09253aa28134b4d604744a3a68c69a5e3d1df8c76bc2205df37bba4 (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../common/content_features_cc/Disable-idle-detection.inc    | 4 ++++
