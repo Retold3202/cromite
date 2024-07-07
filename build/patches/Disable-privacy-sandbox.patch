@@ -2,11 +2,24 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Sat, 13 Nov 2021 09:17:06 +0000
 Subject: Disable privacy sandbox
 
-Remove UI from the settings and set the flags to inactive
-Permanently removes FLoC support, disabling the download of LSH clusters,
-the marking the history navigation and the javascript API and permission policies.
-Also disable FirstPartySets and StorageAccessAPI.
+Disables Google's "Privacy Sandbox" (https://developers.google.com/privacy-sandbox/overview) Ad Tracking in Chromium. More info: https://noyb.eu/google-sandbox-online-tracking-instead-privacy.
 
+Also disables the "Storage Access" API (https://chromestatus.com/feature/5612590694662144) - Prevents third-party resources from accessing cookies & other data.
+
+This patch: 
+
+* Removes the Privacy Sandbox UI in settings and sets the flags to inactive.
+
+* Permanently removes FLoC support
+
+* Disables downloading LSH clusters.
+
+* Disables Privacy Sandbox's History Navigation, JavaScript API, and Permission Policies.
+
+* Disables the Privacy Sandbox "Related Website Sets" API (https://chromestatus.com/feature/5640066519007232)
+
+Initial Commit: https://github.com/uazo/cromite/commit/7700be360a9ac6ea0895e2fc3642aecf141058c8 (Inherited from Bromite)
+Category: Privacy
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
