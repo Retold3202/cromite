@@ -2,7 +2,7 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Fri, 31 Jul 2020 08:27:26 +0200
 Subject: Enable prefetch-privacy-changes by default
 
-Prevents the browser from initiating undesired network connections & prefetching.
+Prevents Cromite from initiating undesired network connections & prefetching.
 
 Initial Commit: https://github.com/uazo/cromite/commit/f513eb76ecb9c5ae62e065608596ccb13643b1c6#diff-0e7340cb0ba472cc6d8b6d93414b4ea9ba91d0f4e9489b12125368822676db33 (Inherited from Bromite)
 Category: Privacy
