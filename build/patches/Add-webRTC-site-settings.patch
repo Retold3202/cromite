@@ -2,10 +2,13 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Fri, 6 May 2022 14:27:17 +0000
 Subject: Add webRTC site settings
 
-Requires patch: Content-settings-infrastructure.patch
+Allows disabling WebRTC per-site.
 
+Initial Commit: https://github.com/uazo/cromite/commit/ceed58fb61a15188345801d33ce56f6a048a717c (Inherited from Bromite)
+Category: Privacy
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
+Requires: Content-settings-infrastructure.patch
 ---
  .../impl/BromiteWebRTCContentSetting.java     | 94 +++++++++++++++++++
  .../bromite_content_settings/webrtc.grdp      | 27 ++++++
