@@ -10,7 +10,7 @@ This patch:
 
 * Removes the Privacy Sandbox UI in settings and sets the flags to inactive.
 
-* Permanently removes FLoC support
+* Permanently removes Privacy Sandbox support.
 
 * Disables downloading LSH clusters.
 
