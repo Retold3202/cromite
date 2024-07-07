@@ -2,12 +2,14 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Mon, 15 Nov 2021 09:43:29 +0000
 Subject: Disable conversion measurement api
 
-Disable Conversion Measurement API by disabling the flag and removing
-support for the AttributionReporting provider. it also removes
-the handling of attributions via intents between apps.
-This patch enforces the deactivation by preventing the report from
-being sent and being saved to disk, although it is currently in uncalled code.
+Disables the "Attribution Reporting" API (https://chromestatus.com/feature/6412002824028160) - Prevents tracking & reporting of "ad conversions".
 
+This is done through disabling the flag and removing support for the AttributionReporting provider. 
+The patch also removes the handling of attributions via intents between apps.
+Reports through this API are prevented from being sent & being saved to disk.
+
+Initial Commit: https://github.com/uazo/cromite/commit/1bf35985bef76ccb25a5346302a2d639305e5188 (Inherited from Bromite)
+Category: Privacy
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
