@@ -2,7 +2,7 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Tue, 24 Oct 2023 10:02:00 +0000
 Subject: Add support to jxl
 
-Enables support for the JPEG XL (https://wikipedia.org/wiki/JPEG_XL) image file format.
+Adds support for the JPEG XL (https://wikipedia.org/wiki/JPEG_XL) image file format.
 
 Partially reverts https://chromium-review.googlesource.com/c/chromium/src/+/4095497.
 
