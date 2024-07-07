@@ -1,7 +1,11 @@
 From: uazo <uazo@users.noreply.github.com>
 Date: Sat, 22 Jul 2023 13:58:40 +0000
-Subject: Disable Feeback Collector
+Subject: Disable Feedback Collector
 
+Disables Google's Feedback Collector in Chromium (https://chromium.googlesource.com/chromium/src/components/feedback/).
+
+Initial Commit: https://github.com/uazo/cromite/commit/d610e2a5257319f6f1ce9bf9cf4fd21550182f85
+Category: Privacy
 License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 ---
  .../browser/feedback/FeedbackCollector.java   | 28 ++-----------------
