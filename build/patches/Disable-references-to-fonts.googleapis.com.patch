@@ -2,6 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Sun, 15 Oct 2017 21:45:46 +0200
 Subject: Disable references to fonts.googleapis.com
 
+Removes references in the browser to Google Fonts.
+
+Initial Commit: https://github.com/Retold3202/cromite/commit/02dfbb43dccefdc6848ab6e6d122f7069af77f94#diff-b3fa0fba8223d2503ee1968a5a1958a15a0985eab952e1d6e2110d16bface04d (Inherited from Bromite)
+Category: Branding
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../side_panel/read_anything/read_anything_toolbar.ts          | 3 ---
