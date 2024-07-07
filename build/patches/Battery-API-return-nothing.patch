@@ -2,8 +2,12 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Thu, 22 Mar 2018 22:11:57 +0100
 Subject: Battery API: return nothing
 
-Include @thestinger's fix for correct charging/unknown values
+Stubs out the Battery API (https://developer.mozilla.org/docs/Web/API/Battery_Status_API).
 
+(Includes @thestinger's fix for correct charging/unknown values)
+
+Initial Commit: https://github.com/uazo/cromite/commit/776d4f859e5d6b20cb7874dad97e3d50c0f684ba#diff-9c226496fe0ea10334d4d7ea67998bec807fc780512c303a97bb78591c90a8f4 (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../modules/battery/battery_manager.cc        | 26 +++----------------
