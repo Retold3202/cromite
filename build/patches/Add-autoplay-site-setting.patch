@@ -8,7 +8,7 @@ Initial Commit: https://github.com/uazo/cromite/commit/36e72671b09beeeadcd04e3a7
 Category: General
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
-Require: Content-settings-infrastructure.patch
+Requires: Content-settings-infrastructure.patch
 ---
  .../res/drawable-hdpi/settings_autoplay.png   | Bin 0 -> 456 bytes
  .../res/drawable-mdpi/settings_autoplay.png   | Bin 0 -> 296 bytes
