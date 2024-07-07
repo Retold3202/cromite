@@ -2,6 +2,10 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Wed, 19 Jul 2023 12:37:39 +0000
 Subject: Cromite Branding
 
+Cromite Branding
+
+Initial Commit: https://github.com/uazo/cromite/commit/d7b2fa08d0e1cbd49caa3272727d96c96c13715b
+Category: Branding
 License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 ---
  build/BUILD.gn                                |   8 ++
