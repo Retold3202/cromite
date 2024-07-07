@@ -2,6 +2,10 @@ From: Your Name <you@example.com>
 Date: Sun, 26 Feb 2023 19:46:04 +0000
 Subject: Disable csp reports
 
+Prevents submitting CSP Reports to websites. More info here: https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#block-csp-reports.
+
+Initial Commit: https://github.com/uazo/cromite/commit/beade82b64cc6ded6a7efd7722bd86a3a4faffc0#diff-fe63966be511427cfd2ab15fe1663e8c02f5a15c4d91fdd1a86ef19f3d4015d2
+Category: Privacy
 ---
  third_party/blink/renderer/core/loader/ping_loader.cc | 3 +++
  1 file changed, 3 insertions(+)
