@@ -2,6 +2,10 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Tue, 25 Jan 2022 12:22:52 +0000
 Subject: Disable all predictors code
 
+Prevents the browser from initiating undesired network connections & prefetching.
+
+Initial Commit: https://github.com/uazo/cromite/commit/7e0c8e2ef38692569e828717a557e68572b83c5b#diff-9abada7c440e80023a13eb55576326d009de0071888f16b1ff905d728beed665 (Inherited from Bromite)
+Category: Privacy
 Original License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
