@@ -2,6 +2,10 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Mon, 15 May 2023 12:33:18 +0000
 Subject: Disable PrivateStateTokens API
 
+Disables the "Private State Token" API (https://chromestatus.com/feature/5078049450098688). More info: https://mozilla.github.io/standards-positions/#private-state-token.
+
+Initial Commit: https://github.com/uazo/cromite/commit/94765e67aef80060f8e14242060209039bdc9367#diff-edb245718e288311d59eb0f4ce24b911b1da411b27bd78dc093743d62e96323e
+Category: Privacy
 License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 ---
  .../public/cpp/features_cc/Disable-PrivateStateTokens-API.inc   | 2 ++
