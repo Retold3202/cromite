@@ -2,6 +2,10 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Sun, 7 May 2023 13:13:47 +0000
 Subject: Disable GetInstalledRelatedApps API
 
+Disables Chromium's "Get Installed Related Apps" API (https://chromestatus.com/feature/5695378309513216) - Prevents websites from detecting if their "related applications" are installed.
+
+Initial Commit: https://github.com/uazo/cromite/commit/41678f396299cc4e474f7dc93e327df7b7bdd684
+Category: Privacy
 License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 ---
  .../components/installedapp/InstalledAppProviderImpl.java       | 1 +
