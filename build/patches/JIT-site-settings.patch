@@ -2,7 +2,7 @@ From: fgei <fgei@gmail.com>
 Date: Sat, 29 Jan 2022 15:22:45 +0000
 Subject: JIT site settings
 
-Allows disabling JavaScript "Just in time" Compilation (JIT) (https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) & WebAssembly (WASM) (https://developer.mozilla.org/docs/WebAssembly) per-site.
+Allows toggling JavaScript "Just in time" Compilation (JIT) (https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) & WebAssembly (WASM) (https://developer.mozilla.org/docs/WebAssembly) per-site.
 
 Reduces attack surface & risk of exploitation.
 
