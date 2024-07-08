@@ -2,7 +2,7 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Wed, 22 May 2024 07:43:04 +0000
 Subject: Keep disabled WebViewMediaIntegrityApi
 
-Disables a new mechanism similar to the Web Environment Integrity API (https://wikipedia.org/wiki/Web_Environment_Integrity) used in WebViews (See https://issuetracker.google.com/issues/327186031).
+Disables a new mechanism in Chromium similar to Google's Web Environment Integrity API (https://wikipedia.org/wiki/Web_Environment_Integrity) used in WebViews (See https://issuetracker.google.com/issues/327186031).
 
 More info: https://android-developers.googleblog.com/2023/11/increasing-trust-for-embedded-media.html.
 
