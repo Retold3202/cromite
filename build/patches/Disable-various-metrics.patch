@@ -2,11 +2,17 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Wed, 25 Apr 2018 10:23:51 +0200
 Subject: Disable various metrics
 
-Disable metrics on all I/O threads
-Set initial metrics opt-out
-Disable metrics collection for NTP tiles
-Fix startup crash for debug builds (uazo)
+Disables Google's metrics & telemetry in Chromium.
 
+Specifically:
+
+* Disable metrics on all I/O threads
+* Sets initial metrics opt-out
+* Disable metrics collection for NTP tiles
+* Fixes startup crash for debug builds (uazo)
+
+Initial Commit: https://github.com/uazo/cromite/commit/4e8b70cb643fd8307221e855103c429fcbce95b7#diff-7439bd187aad8ff921ce997acfd8e7aef293cd4eb40becbedd27c251fcfabb45 (Inherited from Bromite)
+Category: General
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../browser/firstrun/FirstRunActivityBase.java  |  2 +-
