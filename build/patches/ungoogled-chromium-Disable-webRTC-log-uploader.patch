@@ -2,6 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Mon, 12 Feb 2018 21:21:36 +0100
 Subject: ungoogled-chromium: Disable webRTC log uploader
 
+Prevents uploading WebRTC logs to Google (https://webrtc.googlesource.com/src/+/lkgr/logging/g3doc/rtc_event_log.md).
+
+Initial Commit: https://github.com/uazo/cromite/commit/d94f36a0f756ab77a26d2da9304415528a602dec#diff-c64aa2b90b99096d50ecb9c3b8c4879f9290f51a990b762af94e36a8b6af2a82 (Ungoogled Chromium, inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  chrome/browser/ui/browser_ui_prefs.cc | 2 +-
