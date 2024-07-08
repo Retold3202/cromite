@@ -2,12 +2,14 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Sat, 9 May 2020 14:42:37 +0200
 Subject: webRTC: do not expose local IP addresses
 
-Prevent leaks of local IP address and public IP address (when using VPN)
+Ensure that WebRTC never leaks local IP addresses and public IP addresses (useful when using a VPN).
 
 See also:
 * https://github.com/bromite/bromite/issues/553
 * https://github.com/bromite/bromite/issues/589
 
+Initial Commit: https://github.com/uazo/cromite/commit/8520a538a78949f5a65823954213327503a61cfe#diff-ae809cef83ef37d335039a1cd109be4c56a5099a09aa98ab1afdc0b4f4ab365f (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  chrome/browser/ui/browser_ui_prefs.cc                       | 2 +-
