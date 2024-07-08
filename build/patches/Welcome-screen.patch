@@ -2,8 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Fri, 29 Apr 2022 00:31:49 +0200
 Subject: Welcome screen
 
-Allow toggling automatic updates
+Adds Cromite's Onboarding/Welcome Screen & allows toggling automatic updates.
 
+Initial Commit: https://github.com/uazo/cromite/commit/01b1d9144abf9083b30e014a8caa086905b99abc#diff-98b003512b9c473e0d6e3e136e1f77e0b202667a294a77a9cb53a0d9d295f610 (Inherited from Bromite)
+Category: Branding
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  chrome/android/chrome_java_resources.gni      |   1 +
