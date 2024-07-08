@@ -2,10 +2,10 @@ From: Jan Engelhardt <jengelh@inai.de>
 Date: Tue, 2 Jun 2015 11:01:50 +0200
 Subject: updater: disable updater pings
 
-Despite auto-updater being arguably disabled (see previous commit),
-Chromium would still send background requests. Kill it.
-(trk:170, trk:171)
+Prevents Chromium's built-in updater from making undesired background connections, Cromite uses its own updater.
 
+Initial Commit: https://github.com/uazo/cromite/commit/d94f36a0f756ab77a26d2da9304415528a602dec#diff-4a57176c30dc06cb6190a0b6448f627cb2cad1bc714a998cfe14b8bc7bccaad1 (Inherited from Bromite)
+Category: Branding
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../component_updater_url_constants.cc                 |  4 ++--
