@@ -2,8 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Mon, 12 Feb 2018 21:28:53 +0100
 Subject: ungoogled-chromium: Disable translate integration
 
-Remove translate offer
+Removes Chromium's Google Translate features (https://www.chromium.org/developers/design-documents/translate/).
 
+Initial Commit: https://github.com/uazo/cromite/commit/d94f36a0f756ab77a26d2da9304415528a602dec#diff-454c37887fd9b2fae5496c81ccbd3484df632d799c2edcb1d43a91c20c5c3f2d (Ungoogled Chromium, inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../xml/languages_detailed_preferences.xml    | 43 -----------------
