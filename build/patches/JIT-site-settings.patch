@@ -2,16 +2,21 @@ From: fgei <fgei@gmail.com>
 Date: Sat, 29 Jan 2022 15:22:45 +0000
 Subject: JIT site settings
 
-Adds a content setting to manage Javascript JIT, disabled by default.
-Since the interface of the content settings foresees an eTLD origin
-it requires the activation of SitePerProcess and StrictOriginIsolation
-to make sure that the instantiated RenderProcess can have JIT correctly set.
-Without those features, the RenderProcess would be shared between all eTLD+1.
+Allows disabling JavaScript "Just in time" Compilation (JIT) (https://medium.com/@aamchora/what-exactly-just-in-time-jit-compilation-is-in-javascript-f7aea482843f) & WebAssembly (WASM) (https://developer.mozilla.org/docs/WebAssembly) per-site.
 
-note: needs SitePerProcess and StrictOriginIsolation flags enabled
+Reduces attack surface & risk of exploitation.
 
+More info: https://microsoftedge.github.io/edgevr/posts/Super-Duper-Secure-Mode/ https://spectrum.ieee.org/tech-talk/telecom/security/more-worries-over-the-security-of-web-assembly
+
+Since the interface of the content settings added by this patch foresee an eTLD origin, it requires SitePerProcess and StrictOriginIsolation to be enabled,
+so that the instantiated RenderProcess can have JIT correctly set.
+
+Without SitePerProcess and StrictOriginIsolation, the RenderProcess would be shared between all eTLD+1.
+
+Initial Commit: https://github.com/uazo/cromite/commit/d86e096dc0f09633756375ab0e765dc2db7c4cc9 (Inherited from Bromite)
+Category: Security
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
-Require: Content-settings-infrastructure.patch
+Requires: Content-settings-infrastructure.patch
 ---
  .../permission_javascript_jit.png             | Bin 0 -> 433 bytes
  .../permission_javascript_jit.png             | Bin 0 -> 377 bytes
