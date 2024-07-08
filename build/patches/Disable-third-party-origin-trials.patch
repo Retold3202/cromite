@@ -2,6 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Thu, 4 Nov 2021 09:19:24 +0100
 Subject: Disable third-party origin trials
 
+Disables Third-party Origin Trials (https://developer.chrome.com/docs/web-platform/third-party-origin-trials) in Chromium - Used for A/B Testing.
+
+Initial Commit: https://github.com/uazo/cromite/commit/2fe296b6b9f8d82066764590fb889f8d87d14b56#diff-a0b9434f9f37f56388be1993d0a647a18097a8e0b48358c5d03661c525c27b33 (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  android_webview/common/aw_content_client.cc     |  1 -
