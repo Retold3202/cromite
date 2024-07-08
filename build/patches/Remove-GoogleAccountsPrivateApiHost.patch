@@ -2,6 +2,12 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Tue, 5 Sep 2023 12:55:40 +0000
 Subject: Remove GoogleAccountsPrivateApiHost
 
+Disables undesired private Google APIs in Chromium.
+
+More info: https://blog.chromium.org/2021/01/limiting-private-api-availability-in.html https://www.chromium.org/developers/how-tos/api-keys/#acquiring-keys. 
+
+Initial Commit: https://github.com/uazo/cromite/commit/a5b8c1f1ba50dd65c7cbe7bacbb79ed71cc78ac7#diff-a04d0b706793cdbe17cfe5896c227109cb12ef3c158f71897f6b7d11f3325aeb
+Category: Privacy
 License: GPL-2.0-or-later - https://spdx.org/licenses/GPL-2.0-or-later.html
 ---
  .../google_accounts_private_api_util.cc       | 20 +------------------
