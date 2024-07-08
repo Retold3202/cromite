@@ -2,9 +2,14 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Mon, 12 Feb 2018 21:36:33 +0100
 Subject: ungoogled-chromium: no special hosts/domains
 
-Disables various detections of Google hosts and functionality specific to them
-Disable domain reliability detection
+This patch:
 
+* Disables detecting Google hosts & special functionality specific to them in Chromium.
+
+* Disables Google's "Domain Reliability" Reporting (https://chromium.googlesource.com/chromium/src/+/refs/heads/lkgr-ios-internal/components/domain_reliability/README.md).
+
+Initial Commit: https://github.com/uazo/cromite/commit/d94f36a0f756ab77a26d2da9304415528a602dec#diff-4a57176c30dc06cb6190a0b6448f627cb2cad1bc714a998cfe14b8bc7bccaad1 (Ungoogled Chromium, inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../chrome/browser/ui/RootUiCoordinator.java  |   3 -
