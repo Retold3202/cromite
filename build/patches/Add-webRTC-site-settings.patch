@@ -2,7 +2,7 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Fri, 6 May 2022 14:27:17 +0000
 Subject: Add webRTC site settings
 
-Allows disabling WebRTC per-site.
+Allows toggling WebRTC (https://wikipedia.org/wiki/WebRTC) per-site.
 
 Initial Commit: https://github.com/uazo/cromite/commit/ceed58fb61a15188345801d33ce56f6a048a717c (Inherited from Bromite)
 Category: Privacy
