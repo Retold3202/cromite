@@ -2,6 +2,10 @@ From: Simon Eisenmann <simon@struktur.de>
 Date: Mon, 26 Oct 2015 14:18:05 +0100
 Subject: translate: disable fetching of languages from server
 
+Prevents Chromium's Google Translate features from fetching languages on Google's servers.
+
+Initial Commit: https://github.com/uazo/cromite/commit/fc14caf48a4700f0d8cf5175b582f31a5a739c82#diff-145ccb8407fe599ebbb5820e6dcb3ccfbf2327a67dd8bd3d54c7719ae64184c7 (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  components/translate/core/browser/translate_language_list.cc | 2 ++
