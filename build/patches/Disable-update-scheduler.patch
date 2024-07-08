@@ -5,7 +5,7 @@ Subject: Disable update scheduler
 Disables Google's Update Scheduler in Chromium - Cromite uses its own updater.
 
 Initial Commit: https://github.com/uazo/cromite/commit/7469dbed21869b8f964dbff376cc00dcd3d378c9#diff-22cd7bae7b4bedfe46947baff93b03b30fc53b9d2010737d843a31a8d24e08d1 (Inherited from Bromite)
-Category: Branding
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  .../background_task_scheduler/ChromeBackgroundTaskFactory.java  | 2 +-
