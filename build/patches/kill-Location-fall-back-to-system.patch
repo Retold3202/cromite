@@ -2,6 +2,10 @@ From: thermatk <thermatk@thermatk.com>
 Date: Fri, 22 Jun 2018 17:05:17 +0200
 Subject: kill Location, fall back to system
 
+Prevents using Google Play Location Services on Android, & instead falls back to the OS for geolocation.
+
+Initial Commit: https://github.com/uazo/cromite/commit/628ddf9b60dc248813b54ac21d42b3a8627df527#diff-cfa03aead1a729a3897293846e1e016c7071cf12dc9e1fbd0b995c47b50566d6 (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  services/device/geolocation/BUILD.gn                  |  1 -
