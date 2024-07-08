@@ -2,13 +2,17 @@ From: uazo <uazo@users.noreply.github.com>
 Date: Thu, 29 Sep 2022 11:27:35 +0000
 Subject: Eyeo Adblock for Cromite
 
-Change the normal behaviour of Eyeo Chromium SDK to
-suit Bromite logic.
-Add blocking in service workers
-Activates the pop-up blocking management present in adblockplus
-but not active in upstream.
-Added "enable-stricter-popup-blocker" flag for the global
-deactivation of all pop-ups (default disabled)
+Adds Adblock Plus Content Blocking to Cromite.
+
+Additionally, this patch:
+
+* Changes the normal behaviour of Eyeo's Adblock Plus Chromium SDK to suit Cromite logic.
+* Adds blocking in service workers.
+* Activates the pop-up blocking management present in Adblock Plus, but not active in upstream.
+* Enables the "enable-stricter-popup-blocker" flag for the global deactivation of all pop-ups (Disabled by default).
+
+Initial Commit: https://github.com/uazo/cromite/commit/e86b15cbcf93e5bfbe050eb0b2ebdccc4f0f996c#diff-378e98d8b0b96f8b95080861a7e94925c893b3e9cd98d8e8a7c15246a84da138
+Category: Privacy
 ---
  .../android/java/res/xml/main_preferences.xml |   19 +-
  chrome/browser/BUILD.gn                       |    2 -
