@@ -2,6 +2,10 @@ From: csagan5 <32685696+csagan5@users.noreply.github.com>
 Date: Wed, 14 Feb 2018 12:56:01 +0100
 Subject: Never fetch popular sites
 
+Prevents Chromium from fetching "popular sites" on the New Tab Page.
+
+Initial Commit: https://github.com/uazo/cromite/commit/d94f36a0f756ab77a26d2da9304415528a602dec#diff-e4f80bc6d97fd44826234730e6858020ebb8151eeae171e4d02c9347a29cc648 (Inherited from Bromite)
+Category: Privacy
 License: GPL-3.0-only - https://spdx.org/licenses/GPL-3.0-only.html
 ---
  components/ntp_tiles/popular_sites_impl.cc | 10 +++++++---
